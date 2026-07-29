@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- The brand device alone: the rule that splits DERMA|DOK, with the D counters
+       either side of it. At favicon size the wordmark is illegible, so the mark is
+       reduced to the one element that is actually Dermadok's. -->
+  <rect width="32" height="32" fill="#202020"/>
+  <path d="M7 9.5h3.4a6.5 6.5 0 0 1 0 13H7z" fill="none" stroke="#F8F8F8" stroke-width="1.7"/>
+  <line x1="16" y1="6" x2="16" y2="26" stroke="#F8F8F8" stroke-width="1.7"/>
+  <path d="M21.6 9.5H25a6.5 6.5 0 0 1 0 13h-3.4z" fill="none" stroke="#F8F8F8" stroke-width="1.7"/>
+</svg>
