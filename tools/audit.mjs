@@ -23,6 +23,11 @@ const walk = (d, acc = []) => {
 const pages = walk(DIST);
 const routeOf = (p) => "/" + relative(DIST, p).replace(/\\/g, "/").replace(/index\.html$/, "");
 
+// Links carry the deploy prefix (e.g. "/dermadok/…") but dist/ has no such folder.
+// Strip it before resolving, or every internal link reads as dead.
+const BASE = process.env.BASE_PATH ?? "";
+const unbase = (href) => (BASE && href.startsWith(BASE + "/") ? href.slice(BASE.length) : href);
+
 for (const p of pages) {
   const html = readFileSync(p, "utf8");
   const r = routeOf(p);
@@ -59,7 +64,7 @@ for (const p of pages) {
 
   // --- dead internal links
   for (const m of html.matchAll(/href="(\/[^"#?]*)"/g)) {
-    const href = m[1];
+    const href = unbase(m[1]);
     if (/\.(css|js|svg|png|jpg|webp|avif|woff2|xml|txt)$/.test(href)) {
       if (!existsSync(join(DIST, href))) fail.push(`${r} — dead asset ${href}`);
     } else {
