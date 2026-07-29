@@ -1,0 +1,166 @@
+{
+  "_source": "Service copy derived from the corresponding live pages on dermadok.be, 2026-07-29. Clinical detail is transcribed, not invented. Where the source is thin it is marked needsSignoff and flagged in CLIENT_ACTIONS.md rather than padded.",
+
+  "lines": [
+    {
+      "slug": "dermatologie",
+      "title": { "nl": "Dermatologie", "en": "Dermatology" },
+      "lede": {
+        "nl": "Huid-, haar- en nagelaandoeningen, van eczeem en psoriasis tot de opvolging van moedervlekken en de behandeling van huidkanker.",
+        "en": "Conditions of the skin, hair and nails — from eczema and psoriasis to mole monitoring and the treatment of skin cancer."
+      },
+      "body": {
+        "nl": "Bij ons kan u terecht voor allerlei huidaandoeningen, waaronder psoriasis, eczeem, wratten, acne, genitale pathologie, nagelpathologie, huidkanker, moedervlekken, hoofdhuid- en haaraandoeningen en spataders.",
+        "en": "We treat a wide range of skin conditions, including psoriasis, eczema, warts, acne, genital pathology, nail pathology, skin cancer, moles, scalp and hair disorders, and varicose veins."
+      },
+      "procedures": [
+        { "nl": "UV-behandeling", "en": "UV treatment" },
+        { "nl": "Opvolging van moedervlekken en huidkanker, met gespecialiseerde digitale fotografie", "en": "Monitoring of moles and skin cancer, with specialised digital photography" },
+        { "nl": "Epicutane testen om een contactallergie op te sporen", "en": "Patch testing to identify contact allergy" },
+        { "nl": "Het verwijderen van moedervlekken en huidkanker onder lokale verdoving", "en": "Removal of moles and skin cancer under local anaesthetic" }
+      ],
+      "diagnostics": [
+        {
+          "id": "biopt",
+          "title": { "nl": "Biopt", "en": "Biopsy" },
+          "when": { "nl": "Bij vermoeden van huidkanker, of om bij bepaalde aandoeningen de exacte diagnose te stellen.", "en": "When skin cancer is suspected, or to establish an exact diagnosis for certain conditions." },
+          "how": {
+            "nl": "De huid wordt verdoofd en met een biopteur wordt een stukje huid van enkele millimeter verwijderd, dat wordt opgestuurd voor verder onderzoek. Indien nodig wordt een kleine hechting geplaatst.",
+            "en": "The skin is anaesthetised and a punch is used to remove a piece of skin a few millimetres across, which is sent for further examination. A small suture is placed if needed."
+          }
+        },
+        {
+          "id": "trichogram",
+          "title": { "nl": "Trichogram (haarwortelonderzoek)", "en": "Trichogram (hair root analysis)" },
+          "when": { "nl": "Om het aantal haarwortels, de haarschacht en de groeistadia van het haar te bepalen.", "en": "To determine the number of hair roots, the hair shaft and the growth stages of the hair." },
+          "how": {
+            "nl": "Er worden haren uitgetrokken — voor een optimaal resultaat meer dan vijftig. Deze worden onder de microscoop onderzocht en geteld. Zo kan de arts vaak al zien om welk soort haarverlies het gaat, of hoe een behandeling aanslaat.",
+            "en": "Hairs are plucked — more than fifty for a reliable result. They are examined and counted under the microscope. This often already shows the type of hair loss involved, or how well a treatment is working."
+          }
+        }
+      ],
+      "bookingKey": "dermatologie"
+    },
+    {
+      "slug": "chirurgie",
+      "title": { "nl": "Chirurgie", "en": "Surgery" },
+      "lede": {
+        "nl": "Ambulante ingrepen onder lokale verdoving. U verblijft niet in de praktijk en gaat na de procedure meteen naar huis.",
+        "en": "Day procedures under local anaesthetic. You do not stay at the clinic and go home immediately afterwards."
+      },
+      "body": {
+        "nl": "De heelkunde die hier wordt uitgevoerd beperkt zich tot ambulante ingrepen onder lokale verdoving. Dit houdt in dat de patiënt niet in de praktijk dient te verblijven en onmiddellijk na de procedure weer naar huis kan. Voor sommige ingrepen is het wel aangewezen dat de patiënt begeleiding heeft.",
+        "en": "Surgery performed here is limited to day procedures under local anaesthetic. The patient does not need to stay at the clinic and can go home immediately after the procedure. For some procedures it is advisable to bring someone with you."
+      },
+      "procedures": [
+        { "nl": "Verwijderen van lipomen (vetbol)", "en": "Removal of lipomas" },
+        { "nl": "Verwijderen van cysten", "en": "Removal of cysts" },
+        { "nl": "Littekencorrecties", "en": "Scar correction" },
+        { "nl": "Verwijderen van huidletsels of moedervlekken", "en": "Removal of skin lesions or moles" },
+        { "nl": "Klierbiopsies", "en": "Lymph node biopsies" },
+        { "nl": "Wigexcisie voor ingegroeide teennagel", "en": "Wedge excision for an ingrown toenail" }
+      ],
+      "callout": {
+        "nl": "Voor sommige ingrepen is begeleiding aangewezen. Het secretariaat laat u vooraf weten of dat voor uw ingreep geldt.",
+        "en": "For some procedures it is advisable to bring someone with you. The secretariat will tell you in advance whether this applies to yours."
+      },
+      "bookingKey": "dermatologie"
+    },
+    {
+      "slug": "spataders",
+      "title": { "nl": "Spataders en vaatheelkunde", "en": "Varicose veins and vascular care" },
+      "lede": {
+        "nl": "Duplex-onderzoek, conservatieve behandeling, sclerocompressie en de Müller-operatie — beoordeeld door vaatchirurg en dermatoloog samen.",
+        "en": "Duplex assessment, conservative management, sclerocompression and the Müller procedure — assessed by vascular surgeon and dermatologist together."
+      },
+      "body": {
+        "nl": "Indien u spataders heeft kan u bij ons terecht voor een beoordeling, waarbij een duplex-onderzoek gebeurt. Een duplex-onderzoek combineert echografie van de bloedvaten met het meten van de stroomsnelheid van het bloed in die vaten. De bloedvaten worden in beeld gebracht en in dat beeld wordt met kleur de stroomrichting en stroomsnelheid weergegeven.",
+        "en": "If you have varicose veins you can come to us for an assessment, which includes a duplex scan. A duplex scan combines ultrasound of the blood vessels with measurement of the blood flow speed within them. The vessels are imaged, and colour is used to show flow direction and speed."
+      },
+      "options": [
+        { "title": { "nl": "Conservatief", "en": "Conservative" },
+          "text": { "nl": "Er wordt gekeken welke steunkousen of andere maatregelen uw klachten zoveel mogelijk kunnen beperken.", "en": "We look at which compression stockings or other measures can best limit your symptoms." } },
+        { "title": { "nl": "Sclerocompressie", "en": "Sclerocompression" },
+          "text": { "nl": "Spataders worden weggespoten met een vloeistof. Grotere spataders worden met schuim behandeld (foamsclerose), al dan niet onder begeleiding van een echo.", "en": "Veins are injected with a fluid. Larger veins are treated with foam (foam sclerotherapy), with or without ultrasound guidance." } },
+        { "title": { "nl": "Müller-operatie", "en": "Müller procedure" },
+          "text": { "nl": "De spataders worden onder lokale verdoving via hele kleine sneetjes weggehaald. Vooral geschikt voor grote spataderen. Kleine resterende spataderen kunnen later alsnog weggespoten worden.", "en": "The veins are removed under local anaesthetic through very small incisions. Particularly suited to large varicose veins. Any small remaining veins can be injected later." } },
+        { "title": { "nl": "Doorverwijzing", "en": "Referral" },
+          "text": { "nl": "Zijn de spataders te groot voor bovenstaande ingrepen, dan wordt u doorverwezen naar een ziekenhuis voor een grotere operatie of endoveneuze behandeling.", "en": "If the veins are too large for the above, you are referred to a hospital for a larger operation or endovenous treatment." } }
+      ],
+      "callout": {
+        "nl": "Dr. Wustenberghs behandelt daarnaast flebitis en trombose, lymfoedeem, slagaderverkalking en etalageziekte, aneurysma en chronische wonden.",
+        "en": "Dr. Wustenberghs also treats phlebitis and thrombosis, lymphoedema, arterial disease and claudication, aneurysm, and chronic wounds."
+      },
+      "bookingKey": "vaat"
+    },
+    {
+      "slug": "esthetiek",
+      "title": { "nl": "Esthetiek", "en": "Aesthetic medicine" },
+      "lede": {
+        "nl": "Aangezichtsbehandelingen bij Dr. Van den Steen, met natuurlijke resultaten als uitgangspunt.",
+        "en": "Facial treatments with Dr. Van den Steen, with natural results as the starting point."
+      },
+      "body": {
+        "nl": "Na een carrière als spoedarts en diensthoofd spoedgeneeskunde specialiseerde Dr. Van den Steen zich in esthetische geneeskunde. Zijn aanpak is zacht, rustig en persoonlijk: hij neemt de tijd om te luisteren en weigert onnatuurlijke behandelingen uit te voeren.",
+        "en": "After a career as an emergency physician and head of emergency medicine, Dr. Van den Steen specialised in aesthetic medicine. His approach is gentle, calm and personal: he takes the time to listen, and declines to perform treatments that would look unnatural."
+      },
+      "procedures": [
+        { "nl": "Spierontspanners", "en": "Muscle relaxants" },
+        { "nl": "Fillers — hyaluronzuur in diverse viscositeiten", "en": "Fillers — hyaluronic acid in various viscosities" },
+        { "nl": "Skinboosters", "en": "Skinboosters" },
+        { "nl": "PRF en PRP, met uw eigen bloed", "en": "PRF and PRP, using your own blood" },
+        { "nl": "Dr.CYJ Hairfiller", "en": "Dr.CYJ Hairfiller" },
+        { "nl": "Polymelkzuur (Sculptra)", "en": "Poly-L-lactic acid (Sculptra)" },
+        { "nl": "Lipolyse (Prostrolane)", "en": "Lipolysis (Prostrolane)" },
+        { "nl": "Draadlift (Definesse)", "en": "Thread lift (Definesse)" }
+      ],
+      "bookingKey": "esthetiek"
+    },
+    {
+      "slug": "laser",
+      "title": { "nl": "Laser", "en": "Laser" },
+      "lede": {
+        "nl": "Vaatlaser, pigmentlaser en permanente ontharing — en de Erbium-YAG laser voor resurfacing.",
+        "en": "Vascular laser, pigment laser and permanent hair removal — plus the Erbium-YAG laser for resurfacing."
+      },
+      "body": {
+        "nl": "Lasertherapie voor vaat- en pigmentafwijkingen en voor permanente ontharing gebeurt onder supervisie van de dermatologen. Ontharingsbehandelingen worden uitgevoerd door verpleegkundige Stephanie Van de Vijver.",
+        "en": "Laser therapy for vascular and pigment lesions and for permanent hair removal is carried out under dermatologist supervision. Hair-removal treatments are performed by nurse Stephanie Van de Vijver."
+      },
+      "needsSignoff": true,
+      "_signoff": "The live pages /vaatlaser-en-pigmentlaser/ and /permanente-ontharing/ carry additional device and protocol detail. Device make/model was NOT verified during extraction — the build prompt names a 'Cutera Excel V (532nm/1064nm)' but this could not be confirmed on the live site. Do not publish a device specification without client confirmation.",
+      "bookingKey": "laser"
+    },
+    {
+      "slug": "erbium-yag",
+      "title": { "nl": "Erbium-YAG laser", "en": "Erbium-YAG laser" },
+      "parent": "laser",
+      "lede": {
+        "nl": "Ablatieve schaaflaser en gefractioneerde resurfacing, op consultatie bij Dr. Verstraeten.",
+        "en": "Ablative resurfacing and fractionated rejuvenation, by consultation with Dr. Verstraeten."
+      },
+      "needsSignoff": true,
+      "_signoff": "The indication list in the build prompt (§4.3 G) includes Hailey-Hailey disease, Darier's disease, neurofibromas and rhinophyma. These are specific clinical indications and were not verified verbatim during extraction. Requires medical sign-off before publication.",
+      "bookingKey": "laser"
+    },
+    {
+      "slug": "huidverbetering",
+      "title": { "nl": "Huidverbetering", "en": "Skin improvement" },
+      "lede": {
+        "nl": "Gelaatsverzorgingen bij schoonheidsspecialiste Lisette Van Meel, met de nadruk op huidverbetering.",
+        "en": "Facial treatments with beauty therapist Lisette Van Meel, focused on skin improvement."
+      },
+      "body": {
+        "nl": "Lisette Van Meel is al meer dan twintig jaar schoonheidsspecialiste en oprichtster van Anti-Age center Derma Estetic in Etten-Leur. Bij Dermadok verzorgt zij aparte behandelingen.",
+        "en": "Lisette Van Meel has been a beauty therapist for over twenty years and founded the Anti-Age center Derma Estetic in Etten-Leur. At Dermadok she provides separate treatments."
+      },
+      "procedures": [
+        { "nl": "Microdermabrasie", "en": "Microdermabrasion" },
+        { "nl": "Electromesotherapie", "en": "Electromesotherapy" },
+        { "nl": "Microneedling", "en": "Microneedling" },
+        { "nl": "Peel/Mask systeem", "en": "Peel/Mask system" }
+      ],
+      "bookingKey": "huidverbetering"
+    }
+  ]
+}

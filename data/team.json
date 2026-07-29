@@ -1,0 +1,340 @@
+{
+  "_source": "Every fact verified verbatim against the practitioner's own page on dermadok.be, 2026-07-29. The build prompt's §4.2 listed SEVEN practitioners; the live site lists THIRTEEN. Dr Femke Spoelders was absent from the prompt entirely and Dr Karen Wustenberghs was reduced to an unverified footnote. Both are full team members with maintained pages and live booking links.",
+  "_rule": "Facts are exact. Writing may be elevated. NOTHING may be added that is not on the source page.",
+
+  "practitioners": [
+    {
+      "slug": "valerie-verstraeten",
+      "name": "Dr. Valerie Verstraeten",
+      "role": { "nl": "Dermatoloog", "en": "Dermatologist" },
+      "discipline": "dermatologie",
+      "photo": "verstraeten",
+      "photoSource": { "url": "2019/03/valerie.jpg", "w": 500, "h": 597 },
+      "headline": { "nl": "Harvard Medical School · doctoraat cum laude", "en": "Harvard Medical School · doctorate cum laude" },
+      "facts": {
+        "degree": "Geneeskunde, Universiteit Gent, 1 juli 2003, met grootste onderscheiding",
+        "training": "Opleiding tot dermatoloog en klinisch onderzoeker vanaf 1 september 2003, afdeling dermatologie van Prof. Dr. Peter Steijlen, Maastricht UMC+",
+        "harvard": "Onderzoek aan Harvard Medical School, Boston, USA — mei 2007 tot september 2010",
+        "doctorate": "Doctoraat cum laude, Universiteit Maastricht, 4 maart 2011. Proefschrift: “Nuclear structure at the crossroad of premature aging and lipodystrophy”",
+        "current": "Sinds augustus 2013 verbonden aan de afdeling dermatologie van het Maastricht UMC+; sinds 2016 woonachtig in Antwerpen en nog twee dagen per week actief in Maastricht UMC+",
+        "focus": "Systeemziekten (gezamenlijke consultatie met reumatoloog en immunoloog), allergologie (contactallergie), lasertherapie (vaatlaser, pigmentlaser, ontharingslaser, verdampende laser)"
+      },
+      "treats": [
+        "Diverse huid-, haar- en nagelziekten",
+        "Lasertherapie voor vaat- en pigmentafwijkingen",
+        "Lasertherapie voor permanente ontharing",
+        "Ablatieve Erbium-YAG laser (schaaflaser) en gefractioneerde Erbium-YAG laser (resurfacing/rejuvenation)",
+        "UV-behandelingen",
+        "Opvolging van moedervlekken (evt. met gespecialiseerde digitale fotografie)",
+        "Verwijderen van storende of schadelijke huidletsels",
+        "Contactallergietesten"
+      ],
+      "accredited": true,
+      "conventioned": false,
+      "consultation": {
+        "nl": "Algemene dermatologie op dinsdagvoormiddag. Lasertherapie voor vaat- en pigmentafwijkingen en permanente ontharing op woensdagochtend. Erbium-YAG laserconsultatie op donderdagvoormiddag.",
+        "en": "General dermatology Tuesday morning. Vascular/pigment laser and permanent hair removal Wednesday morning. Erbium-YAG laser consultation Thursday morning."
+      },
+      "booking": {
+        "online": "partial",
+        "url": "https://onlinebooking.myorganizer.online/?guid=ZWY0NGU2ZDktZjNlOS00MWRmLTlmMTgtNjM2MmVhN2E3OGY2&language=bmxfQkU%3D&role=OA%3D%3D",
+        "restriction": {
+          "nl": "Er zijn momenteel geen afspraken meer beschikbaar voor algemene dermatologie. Bent u verwezen voor lasertherapie, neem dan telefonisch contact op.",
+          "en": "No appointments are currently available for general dermatology. If you have been referred for laser therapy, please call the secretariat."
+        },
+        "_verified": "Verbatim from her page, 2026-07-29. This is the ONLY appointment stop on the site and it is limited to one doctor and one service line — not the clinic-wide patiëntenstop described in the build prompt's F-003."
+      }
+    },
+    {
+      "slug": "annick-bracke",
+      "name": "Dr. Annick Bracke",
+      "role": { "nl": "Dermatoloog", "en": "Dermatologist" },
+      "discipline": "dermatologie",
+      "photo": "bracke",
+      "photoSource": { "url": "2019/03/dokter-bracke.png", "w": 500, "h": 597 },
+      "headline": { "nl": "Spataders in samenwerking met vaatchirurgie", "en": "Varicose veins, in close work with vascular surgery" },
+      "facts": {
+        "degree": "Geneeskunde, Universiteit Antwerpen, 2003",
+        "training": "Afgestudeerd als dermatoloog in 2008, dienst van Professor J. Lambert, Universitair Ziekenhuis Antwerpen",
+        "current": "Van oktober 2008 tot zomer 2013 voltijds dermatoloog aan het Amphia Ziekenhuis, Breda, Nederland",
+        "focus": "Bekwaamde zich in de behandeling van spataders in nauwe samenwerking met de vaatchirurgen. Als onderzoeksarts begeleidde zij patiënten bij klinische studies voor nieuwe psoriasisbehandelingen."
+      },
+      "treats": [
+        "Diverse huidziekten",
+        "Huid- en vaatproblemen",
+        "UV-behandelingen",
+        "Opvolging van moedervlekken (met gespecialiseerde digitale fotografie)",
+        "Verwijderen van storende of schadelijke huidletsels",
+        "Contactallergietesten",
+        "Spataderonderzoek door middel van een duplex-onderzoek",
+        "Sclerocompressiebehandeling (wegspuiten van spataders)"
+      ],
+      "accredited": true,
+      "conventioned": false,
+      "consultation": {
+        "nl": "Alle weekdagen, niet op woensdagnamiddag, enkel op afspraak.",
+        "en": "All weekdays except Wednesday afternoon, by appointment only."
+      },
+      "booking": {
+        "online": true,
+        "url": "https://onlinebooking.myorganizer.online/?guid=YTViNzVjYWItY2NjOC00YjAwLTkzNGQtNzYzOTI1ZjU0YTlj&language=bmxfQkU%3D&role=OA%3D%3D",
+        "restriction": {
+          "nl": "Dr. Bracke neemt geen nieuwe afspraken meer aan voor haarpathologie en vulvapathologie. Dit is volledig stopgezet.",
+          "en": "Dr. Bracke no longer accepts appointments for hair or vulvar pathology. This has been discontinued entirely."
+        }
+      }
+    },
+    {
+      "slug": "niels-horst",
+      "name": "Dr. Niels Horst",
+      "role": { "nl": "Dermatoloog", "en": "Dermatologist" },
+      "discipline": "dermatologie",
+      "photo": "horst",
+      "photoSource": { "url": "2019/03/horst.jpg", "w": 500, "h": 597 },
+      "headline": { "nl": "Senior staflid dermatologie, UZA · dermatochirurgie, Versailles", "en": "Senior staff, dermatology, UZA · dermatologic surgery, Versailles" },
+      "facts": {
+        "degree": "Master geneeskunde, Universiteit Antwerpen, 2013, met grote onderscheiding",
+        "training": "Eén jaar in opleiding tot internist, daarna specialisatie tot dermatoloog onder professor Julien Lambert, Universitair Ziekenhuis Antwerpen, afgestudeerd 2018",
+        "tanzania": "Voorjaar 2018 in het universitair ziekenhuis van Moshi, Tanzania, voor verdere opleiding",
+        "postgrad": "Postgraduaat “Tropical Medicine and International Healthcare”, Instituut voor Tropische Geneeskunde, Antwerpen",
+        "diu": "Diplôme Inter Universitaire dermatochirurgie, Université de Versailles Saint-Quentin-en-Yvelines (UVSQ)",
+        "current": "Naast zijn werk bij Dermadok senior staflid op de dienst dermatologie van het Universitair Ziekenhuis Antwerpen",
+        "focus": "Algemene dermatologie en dermatochirurgie. Begeleidde patiënten bij studies met nieuwe medicijnen voor psoriasis."
+      },
+      "treats": [
+        "Diverse huidziekten",
+        "Huid-, haar-, nagel- en vaatproblemen",
+        "UV-behandelingen",
+        "Opvolging van moedervlekken (met gespecialiseerde digitale fotografie)",
+        "Verwijderen van storende of schadelijke huidletsels"
+      ],
+      "accredited": true,
+      "conventioned": false,
+      "consultation": { "nl": "Maandag en woensdag, enkel op afspraak.", "en": "Monday and Wednesday, by appointment only." },
+      "booking": {
+        "online": true,
+        "url": "https://onlinebooking.myorganizer.online/?guid=NjQ4MWE1NmEtN2U0NC00YmNlLTllNzgtYzQ0M2QwMDM3NGI5&language=bmxfQkU%3D&role=OA%3D%3D",
+        "restriction": null
+      }
+    },
+    {
+      "slug": "pieter-denorme",
+      "name": "Dr. Pieter Denorme",
+      "role": { "nl": "Dermatoloog", "en": "Dermatologist" },
+      "discipline": "dermatologie",
+      "photo": "denorme",
+      "photoSource": { "url": "2025/06/foto-pieter-scaled.jpg", "w": 2399, "h": 2560 },
+      "headline": { "nl": "Dermatochirurgie en allergologie", "en": "Dermatologic surgery and allergology" },
+      "facts": {
+        "degree": "Master geneeskunde, KU Leuven, 2016, met grootste onderscheiding",
+        "training": "Specialisatie tot dermatoloog onder leiding van professor Maria Garmyn, UZ Leuven, afgestudeerd 2020",
+        "current": "Naast de opleiding op de diensten dermatologie en allergologie van UZ Leuven werkte hij bij Dr. Hugo Boonen in Geel (privépraktijk), in Mol (H. Hartziekenhuis) en een jaar in Zuyderland Medisch Centrum, Heerlen, Nederland",
+        "focus": "Algemene dermatologie, dermatochirurgie en allergologie"
+      },
+      "treats": [
+        "Diverse huidziekten",
+        "Huid-, haar-, nagel- en vaatproblemen",
+        "Opvolging van moedervlekken (met gespecialiseerde digitale fotografie)",
+        "Verwijderen van storende of schadelijke huidletsels",
+        "Contactallergietesten",
+        "UV-behandelingen"
+      ],
+      "accredited": true,
+      "conventioned": false,
+      "consultation": { "nl": "Alle weekdagen, niet op donderdagnamiddag, enkel op afspraak.", "en": "All weekdays except Thursday afternoon, by appointment only." },
+      "booking": {
+        "online": "partial",
+        "url": "https://onlinebooking.myorganizer.online/?guid=ZDYzMzhkNWEtYThlNS00ZTE1LTk4ODQtZTU5Y2I5YWY2ZmY3&language=bmxfQkU%3D&role=OA%3D%3D",
+        "restriction": {
+          "nl": "Online boeken kan enkel voor gekende patiënten en voor algemene opvolgafspraken. Voor een ingreep of specifiek onderzoek neemt u contact op met het secretariaat.",
+          "en": "Online booking is only possible for existing patients and general follow-up appointments. For a procedure or specific investigation, please contact the secretariat."
+        }
+      }
+    },
+    {
+      "slug": "evelyne-mangodt",
+      "name": "Dr. Evelyne Mangodt",
+      "role": { "nl": "Dermatologe", "en": "Dermatologist" },
+      "discipline": "dermatologie",
+      "photo": "mangodt",
+      "photoSource": { "url": "2020/08/margodt.jpg", "w": 500, "h": 597 },
+      "headline": { "nl": "Dermatochirurgie · onderzoek hidradenitis suppurativa", "en": "Dermatologic surgery · hidradenitis suppurativa research" },
+      "facts": {
+        "degree": "Master geneeskunde, Universiteit Antwerpen, 2016, met grote onderscheiding",
+        "training": "Specialisatie tot dermatologe in het Universitair Ziekenhuis Antwerpen onder Professor dokter Julien Lambert, afgestudeerd 2020",
+        "current": "Dermatologe in Antwerpen en Muizen (Mechelen)",
+        "focus": "Algemene dermatologie en dermatochirurgie. Begeleidde patiënten in het kader van een studie over hidradenitis suppurativa."
+      },
+      "treats": [
+        "Diverse huidziekten",
+        "Huid-, haar-, nagel- en vaatproblemen",
+        "Opvolging van moedervlekken (met gespecialiseerde digitale fotografie)",
+        "Verwijderen van storende of schadelijke huidletsels",
+        "Contactallergietesten",
+        "UV-behandelingen"
+      ],
+      "accredited": true,
+      "conventioned": false,
+      "consultation": { "nl": "Woensdag en donderdag, enkel op afspraak.", "en": "Wednesday and Thursday, by appointment only." },
+      "booking": {
+        "online": true,
+        "url": "https://onlinebooking.myorganizer.online/?guid=ZDI5ZDRkOTctZjZlMC00MWI0LWIwYjctYzA1ZjhiZDMxNDMz&language=bmxfQkU%3D&role=OA%3D%3D",
+        "restriction": null
+      }
+    },
+    {
+      "slug": "femke-spoelders",
+      "name": "Dr. Femke Spoelders",
+      "role": { "nl": "Dermatologe", "en": "Dermatologist" },
+      "discipline": "dermatologie",
+      "photo": "spoelders",
+      "photoSource": { "url": "2026/04/Femke-Spoelders.png", "w": 352, "h": 347 },
+      "headline": { "nl": "Dermato-oncologie · opgeleid in Duitsland, Gent en Leuven", "en": "Dermato-oncology · trained in Germany, Ghent and Leuven" },
+      "facts": {
+        "degree": "Master in de Geneeskunde, Universiteit Gent, 2019",
+        "training": "Opleiding tot dermatoloog in Duitsland bij de Ärztekammer Nordrhein-Westfalen, in het UZ Gent onder leiding van professor Jo Lambert en in het UZ Leuven onder leiding van professor Maria Garmyn",
+        "focus": "Algemene dermatologie, dermato-oncologie, dermatochirurgie en allergologie"
+      },
+      "treats": [
+        "Huid-, haar-, nagel- en vaatziekten",
+        "Opvolging van moedervlekken met gespecialiseerde digitale fotografie",
+        "Verwijderen van storende of schadelijke huidletsels",
+        "Vaatlaserbehandelingen",
+        "UV-behandelingen"
+      ],
+      "accredited": true,
+      "conventioned": false,
+      "consultation": { "nl": "Vrijdag, enkel op afspraak.", "en": "Friday, by appointment only." },
+      "booking": {
+        "online": true,
+        "url": "https://onlinebooking.myorganizer.online/?guid=NTU0NzYwOWQtMmY5Ny00MTE0LTgzNDUtODViN2NlNzViMTU4&language=bmxfQkU%3D&role=OA%3D%3D",
+        "restriction": null,
+        "_removed": "Her live page carries 'Momenteel zijn er afspraken mogelijk van juni 2026 tem augustus 2026' — hardcoded dated text that expires within weeks. Deliberately NOT carried over; this belongs in site.json → actueel (F-008)."
+      }
+    },
+    {
+      "slug": "karen-wustenberghs",
+      "name": "Dr. Karen Wustenberghs",
+      "role": { "nl": "Vaatchirurg", "en": "Vascular surgeon" },
+      "discipline": "vaatchirurgie",
+      "photo": "wustenberghs",
+      "photoSource": { "url": "2019/03/karen.jpg", "w": 500, "h": 597 },
+      "headline": { "nl": "Thorax- en vaatchirurg", "en": "Thoracic and vascular surgeon" },
+      "facts": {
+        "degree": "Geneeskunde, Universiteit Antwerpen, 2004",
+        "training": "Erkend als algemeen chirurg in 2010. Opleiding thorax- en vaatchirurgie in Ziekenhuis Netwerk Antwerpen (Middelheim, Stuivenberg, Jan Palfijn) en Sint-Augustinus (Wilrijk); erkend als vaatchirurg in 2013.",
+        "current": "Werkt als thorax- en vaatchirurg in GZA Sint-Augustinus Wilrijk, Sint-Vincentius Antwerpen, Sint-Jozef Mortsel en AZ Voorkempen Emmaüs Ziekenhuis Malle"
+      },
+      "treats": [
+        "Spataders",
+        "Flebitis, trombosen",
+        "Lymfoedeem",
+        "Slagaderverkalking, etalageziekte",
+        "Aneurysma",
+        "Chronische wonden"
+      ],
+      "accredited": false,
+      "conventioned": false,
+      "consultation": { "nl": "Dinsdagnamiddag, enkel op afspraak.", "en": "Tuesday afternoon, by appointment only." },
+      "booking": {
+        "online": true,
+        "url": "https://onlinebooking.myorganizer.online/?guid=ZjQ4YTMxNzAtNWI5Ni00ODQ1LWEwZDAtMDIzMDA0NDliMjMz&language=bmxfQkU%3D&role=OA%3D%3D",
+        "restriction": null,
+        "_verified": "Live booking link present on /maak-een-afspraak/. The build prompt's §11.1 claim that vascular is 'EXISTING PATIENTS ONLY at present' appears nowhere on the site."
+      }
+    },
+    {
+      "slug": "philippe-van-den-steen",
+      "name": "Dr. Philippe Van den Steen",
+      "role": { "nl": "Esthetisch arts", "en": "Aesthetic physician" },
+      "discipline": "esthetiek",
+      "photo": "vandensteen",
+      "photoSource": { "url": "2025/04/philippe-vds.jpg", "w": 856, "h": 918 },
+      "headline": { "nl": "Voormalig diensthoofd spoedgeneeskunde", "en": "Former head of emergency medicine" },
+      "facts": {
+        "degree": "Arts, Universiteit Antwerpen, 2008",
+        "training": "Een carrière als spoedarts en diensthoofd spoedgeneeskunde, daarna specialisatie in esthetische geneeskunde",
+        "focus": "Aangezichtsbehandelingen met als doel natuurlijke resultaten. Zijn aanpak is zacht, rustig en persoonlijk. Hij neemt de tijd om te luisteren en weigert onnatuurlijke behandelingen uit te voeren.",
+        "teaching": "Reist de wereld rond om congressen bij te wonen en deelt zijn kennis als docent aan collega-artsen"
+      },
+      "treats": [
+        "Spierontspanners",
+        "Fillers (hyaluronzuur, diverse viscositeiten)",
+        "Skinboosters",
+        "PRF/PRP",
+        "Dr.CYJ Hairfiller",
+        "Polymelkzuur (Sculptra)",
+        "Lipolyse (Prostrolane)",
+        "Draadlift (Definesse)"
+      ],
+      "accredited": null,
+      "conventioned": null,
+      "consultation": { "nl": "Donderdagnamiddag, enkel op afspraak.", "en": "Thursday afternoon, by appointment only." },
+      "booking": {
+        "online": true,
+        "url": "https://onlinebooking.myorganizer.online/?guid=MDdjMmY5MjUtZmY0Ny00MjFjLWE5YzUtM2Q5NzZjNDJlYmI5&language=bmxfQkU%3D&role=OA%3D%3D",
+        "restriction": null
+      }
+    },
+    {
+      "slug": "stephanie-van-de-vijver",
+      "name": "Stephanie Van de Vijver",
+      "role": { "nl": "Verpleegkundige", "en": "Nurse" },
+      "discipline": "laser",
+      "photo": "vandevijver",
+      "photoSource": { "url": "2025/04/Stephanie-vdv.jpg", "w": 480, "h": 640 },
+      "headline": { "nl": "Ontharingslaser onder supervisie van de dermatologen", "en": "Hair-removal laser under dermatologist supervision" },
+      "facts": {
+        "current": "Sinds december 2023 werkzaam in de praktijk voor behandelingen met de ontharingslaser, onder supervisie van de dermatologen. Werkt ook als verpleegkundige in het Sint-Augustinus ziekenhuis.",
+        "confidentiality": "Net zoals de artsen is zij gebonden aan het beroepsgeheim."
+      },
+      "treats": ["Permanente ontharing met de ontharingslaser"],
+      "accredited": null,
+      "conventioned": null,
+      "consultation": { "nl": "Enkel op afspraak.", "en": "By appointment only." },
+      "booking": {
+        "online": true,
+        "url": "https://onlinebooking.myorganizer.online/?guid=ODkxNGM5NmYtZDQ3Ni00N2EzLWFhOGQtMWE2M2E3Yzc1NTdk&language=bmxfQkU%3D&role=OA%3D%3D",
+        "restriction": null
+      }
+    },
+    {
+      "slug": "lisette-van-meel",
+      "name": "Lisette Van Meel",
+      "role": { "nl": "Schoonheidsspecialiste", "en": "Beauty therapist" },
+      "discipline": "huidverbetering",
+      "photo": "vanmeel",
+      "photoSource": { "url": "2024/04/lisette.jpg", "w": 1290, "h": 1454 },
+      "headline": { "nl": "Meer dan 20 jaar schoonheidsspecialiste", "en": "More than 20 years as a beauty therapist" },
+      "facts": {
+        "current": "Al meer dan 20 jaar schoonheidsspecialiste. Oprichtster van Anti-Age center Derma Estetic in Etten-Leur, Nederland, en verzorgt aparte behandelingen bij Dermadok.",
+        "focus": "Gelaatsverzorgingen met de nadruk op huidverbetering"
+      },
+      "treats": ["Microdermabrasie", "Electromesotherapie", "Microneedling", "Peel/Mask systeem"],
+      "accredited": null,
+      "conventioned": null,
+      "consultation": { "nl": "Enkel op afspraak, via het secretariaat.", "en": "By appointment only, via the secretariat." },
+      "booking": {
+        "online": false,
+        "url": null,
+        "restriction": {
+          "nl": "Voor huidverbetering belt u het secretariaat. Online boeken is voor deze behandelingen niet mogelijk.",
+          "en": "For skin-improvement treatments, please call the secretariat. Online booking is not available for these."
+        },
+        "_verified": "No booking link exists for Lisette Van Meel on /maak-een-afspraak/. Phone-first is the correct and only path."
+      }
+    }
+  ],
+
+  "support": [
+    { "slug": "stephanie-van-dunnegem", "name": "Stéphanie Van Dunnegem", "role": { "nl": "Medical office manager", "en": "Medical office manager" },
+      "photo": "vandunnegem", "photoSource": { "url": "2019/03/stefanie.jpg", "w": 500, "h": 597 },
+      "note": { "nl": "Dagelijkse administratie en facturatie, en het telefonisch en persoonlijk onthaal van patiënten. Gebonden aan het beroepsgeheim.", "en": "Day-to-day administration and invoicing, and welcoming patients by phone and in person. Bound by professional confidentiality." } },
+    { "slug": "caroline-pauwels", "name": "Caroline Pauwels", "role": { "nl": "Secretariaat", "en": "Secretariat" },
+      "photo": "pauwels", "photoSource": { "url": "2021/03/pauwels.jpg", "w": 500, "h": 597 },
+      "note": { "nl": "Telefonisch en persoonlijk onthaal, afspraken, inschrijvingen en administratie. Gebonden aan het beroepsgeheim.", "en": "Phone and in-person reception, appointments, registrations and administration. Bound by professional confidentiality." } },
+    { "slug": "julie-block", "name": "Julie Block", "role": { "nl": "Secretariaat", "en": "Secretariat" },
+      "photo": "block", "photoSource": { "url": "2025/03/foto.jpg", "w": 454, "h": 640 },
+      "note": { "nl": "Telefonisch en persoonlijk onthaal, afspraken, inschrijvingen en administratie. Gebonden aan het beroepsgeheim.", "en": "Phone and in-person reception, appointments, registrations and administration. Bound by professional confidentiality." } }
+  ]
+}

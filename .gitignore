@@ -1,0 +1,6 @@
+# Build output — reproducible via `node tools/build.mjs`
+dist/
+# Heavy originals downloaded from dermadok.be. Provenance is recorded in
+# data/assets.manifest.json; re-fetch with tools/fetch-sources.sh if needed.
+assets/source/
+*.zip

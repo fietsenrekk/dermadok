@@ -1,0 +1,634 @@
+{
+  "_generated": "2026-07-29T19:05:46.513Z",
+  "grade": {
+    "CURVE": "curves=master='0/0.045 0.25/0.235 0.5/0.5 0.82/0.84 1/0.965'",
+    "SPLIT": "colorbalance=bs=0.040:rh=0.035:bh=-0.015",
+    "PROFILES": {
+      "portrait": {
+        "filters": [
+          "curves=master='0/0.045 0.25/0.235 0.5/0.5 0.82/0.84 1/0.965'",
+          "eq=contrast=1.055:saturation=0.97:gamma=1.01",
+          "colorbalance=bs=0.040:rh=0.035:bh=-0.015"
+        ],
+        "grain": 5,
+        "sharpen": "unsharp=5:5:0.5:5:5:0.0"
+      },
+      "environment": {
+        "filters": [
+          "curves=master='0/0.045 0.25/0.235 0.5/0.5 0.82/0.84 1/0.965'",
+          "eq=contrast=1.075:saturation=0.86:gamma=1.0",
+          "colorbalance=bs=0.040:rh=0.035:bh=-0.015"
+        ],
+        "grain": 7,
+        "sharpen": "unsharp=5:5:0.7:5:5:0.0"
+      }
+    },
+    "grainReferenceWidth": 1600
+  },
+  "images": [
+    {
+      "slug": "block",
+      "source": "block.jpg",
+      "intrinsic": {
+        "w": 454,
+        "h": 640
+      },
+      "role": "portrait",
+      "profile": "portrait",
+      "meetsMinimum": false,
+      "requiredMinimum": 2560,
+      "variants": [
+        {
+          "width": 454,
+          "grain": 3,
+          "webp": "block-454.webp",
+          "avif": "block-454.avif",
+          "jpg": "block-454.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "bracke",
+      "source": "bracke.png",
+      "intrinsic": {
+        "w": 500,
+        "h": 597
+      },
+      "role": "portrait",
+      "profile": "portrait",
+      "meetsMinimum": false,
+      "requiredMinimum": 2560,
+      "variants": [
+        {
+          "width": 480,
+          "grain": 3,
+          "webp": "bracke-480.webp",
+          "avif": "bracke-480.avif",
+          "jpg": "bracke-480.jpg"
+        },
+        {
+          "width": 500,
+          "grain": 3,
+          "webp": "bracke-500.webp",
+          "avif": "bracke-500.avif",
+          "jpg": "bracke-500.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "denorme",
+      "source": "denorme.jpg",
+      "intrinsic": {
+        "w": 2399,
+        "h": 2560
+      },
+      "role": "portrait",
+      "profile": "portrait",
+      "meetsMinimum": true,
+      "requiredMinimum": 2560,
+      "variants": [
+        {
+          "width": 480,
+          "grain": 3,
+          "webp": "denorme-480.webp",
+          "avif": "denorme-480.avif",
+          "jpg": "denorme-480.jpg"
+        },
+        {
+          "width": 768,
+          "grain": 3,
+          "webp": "denorme-768.webp",
+          "avif": "denorme-768.avif",
+          "jpg": "denorme-768.jpg"
+        },
+        {
+          "width": 1200,
+          "grain": 4,
+          "webp": "denorme-1200.webp",
+          "avif": "denorme-1200.avif",
+          "jpg": "denorme-1200.jpg"
+        },
+        {
+          "width": 1600,
+          "grain": 5,
+          "webp": "denorme-1600.webp",
+          "avif": "denorme-1600.avif",
+          "jpg": "denorme-1600.jpg"
+        },
+        {
+          "width": 2048,
+          "grain": 6,
+          "webp": "denorme-2048.webp",
+          "avif": "denorme-2048.avif",
+          "jpg": "denorme-2048.jpg"
+        },
+        {
+          "width": 2399,
+          "grain": 6,
+          "webp": "denorme-2399.webp",
+          "avif": "denorme-2399.avif",
+          "jpg": "denorme-2399.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "gevel",
+      "source": "gevel.jpg",
+      "intrinsic": {
+        "w": 1000,
+        "h": 960
+      },
+      "role": "hero",
+      "profile": "environment",
+      "meetsMinimum": false,
+      "requiredMinimum": 3840,
+      "variants": [
+        {
+          "width": 480,
+          "grain": 4,
+          "webp": "gevel-480.webp",
+          "avif": "gevel-480.avif",
+          "jpg": "gevel-480.jpg"
+        },
+        {
+          "width": 768,
+          "grain": 5,
+          "webp": "gevel-768.webp",
+          "avif": "gevel-768.avif",
+          "jpg": "gevel-768.jpg"
+        },
+        {
+          "width": 1000,
+          "grain": 6,
+          "webp": "gevel-1000.webp",
+          "avif": "gevel-1000.avif",
+          "jpg": "gevel-1000.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "horst",
+      "source": "horst.jpg",
+      "intrinsic": {
+        "w": 500,
+        "h": 597
+      },
+      "role": "portrait",
+      "profile": "portrait",
+      "meetsMinimum": false,
+      "requiredMinimum": 2560,
+      "variants": [
+        {
+          "width": 480,
+          "grain": 3,
+          "webp": "horst-480.webp",
+          "avif": "horst-480.avif",
+          "jpg": "horst-480.jpg"
+        },
+        {
+          "width": 500,
+          "grain": 3,
+          "webp": "horst-500.webp",
+          "avif": "horst-500.avif",
+          "jpg": "horst-500.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "interior-1",
+      "source": "interior-1.jpg",
+      "intrinsic": {
+        "w": 1000,
+        "h": 667
+      },
+      "role": "editorial",
+      "profile": "environment",
+      "meetsMinimum": false,
+      "requiredMinimum": 2560,
+      "variants": [
+        {
+          "width": 480,
+          "grain": 4,
+          "webp": "interior-1-480.webp",
+          "avif": "interior-1-480.avif",
+          "jpg": "interior-1-480.jpg"
+        },
+        {
+          "width": 768,
+          "grain": 5,
+          "webp": "interior-1-768.webp",
+          "avif": "interior-1-768.avif",
+          "jpg": "interior-1-768.jpg"
+        },
+        {
+          "width": 1000,
+          "grain": 6,
+          "webp": "interior-1-1000.webp",
+          "avif": "interior-1-1000.avif",
+          "jpg": "interior-1-1000.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "interior-2",
+      "source": "interior-2.jpg",
+      "intrinsic": {
+        "w": 1000,
+        "h": 667
+      },
+      "role": "editorial",
+      "profile": "environment",
+      "meetsMinimum": false,
+      "requiredMinimum": 2560,
+      "variants": [
+        {
+          "width": 480,
+          "grain": 4,
+          "webp": "interior-2-480.webp",
+          "avif": "interior-2-480.avif",
+          "jpg": "interior-2-480.jpg"
+        },
+        {
+          "width": 768,
+          "grain": 5,
+          "webp": "interior-2-768.webp",
+          "avif": "interior-2-768.avif",
+          "jpg": "interior-2-768.jpg"
+        },
+        {
+          "width": 1000,
+          "grain": 6,
+          "webp": "interior-2-1000.webp",
+          "avif": "interior-2-1000.avif",
+          "jpg": "interior-2-1000.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "mangodt",
+      "source": "mangodt.jpg",
+      "intrinsic": {
+        "w": 500,
+        "h": 597
+      },
+      "role": "portrait",
+      "profile": "portrait",
+      "meetsMinimum": false,
+      "requiredMinimum": 2560,
+      "variants": [
+        {
+          "width": 480,
+          "grain": 3,
+          "webp": "mangodt-480.webp",
+          "avif": "mangodt-480.avif",
+          "jpg": "mangodt-480.jpg"
+        },
+        {
+          "width": 500,
+          "grain": 3,
+          "webp": "mangodt-500.webp",
+          "avif": "mangodt-500.avif",
+          "jpg": "mangodt-500.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "pauwels",
+      "source": "pauwels.jpg",
+      "intrinsic": {
+        "w": 500,
+        "h": 597
+      },
+      "role": "portrait",
+      "profile": "portrait",
+      "meetsMinimum": false,
+      "requiredMinimum": 2560,
+      "variants": [
+        {
+          "width": 480,
+          "grain": 3,
+          "webp": "pauwels-480.webp",
+          "avif": "pauwels-480.avif",
+          "jpg": "pauwels-480.jpg"
+        },
+        {
+          "width": 500,
+          "grain": 3,
+          "webp": "pauwels-500.webp",
+          "avif": "pauwels-500.avif",
+          "jpg": "pauwels-500.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "spoelders",
+      "source": "spoelders.png",
+      "intrinsic": {
+        "w": 352,
+        "h": 347
+      },
+      "role": "portrait",
+      "profile": "portrait",
+      "meetsMinimum": false,
+      "requiredMinimum": 2560,
+      "variants": [
+        {
+          "width": 352,
+          "grain": 2,
+          "webp": "spoelders-352.webp",
+          "avif": "spoelders-352.avif",
+          "jpg": "spoelders-352.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "vandensteen",
+      "source": "vandensteen.jpg",
+      "intrinsic": {
+        "w": 856,
+        "h": 918
+      },
+      "role": "portrait",
+      "profile": "portrait",
+      "meetsMinimum": false,
+      "requiredMinimum": 2560,
+      "variants": [
+        {
+          "width": 480,
+          "grain": 3,
+          "webp": "vandensteen-480.webp",
+          "avif": "vandensteen-480.avif",
+          "jpg": "vandensteen-480.jpg"
+        },
+        {
+          "width": 768,
+          "grain": 3,
+          "webp": "vandensteen-768.webp",
+          "avif": "vandensteen-768.avif",
+          "jpg": "vandensteen-768.jpg"
+        },
+        {
+          "width": 856,
+          "grain": 4,
+          "webp": "vandensteen-856.webp",
+          "avif": "vandensteen-856.avif",
+          "jpg": "vandensteen-856.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "vandevijver",
+      "source": "vandevijver.jpg",
+      "intrinsic": {
+        "w": 480,
+        "h": 640
+      },
+      "role": "portrait",
+      "profile": "portrait",
+      "meetsMinimum": false,
+      "requiredMinimum": 2560,
+      "variants": [
+        {
+          "width": 480,
+          "grain": 3,
+          "webp": "vandevijver-480.webp",
+          "avif": "vandevijver-480.avif",
+          "jpg": "vandevijver-480.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "vandunnegem",
+      "source": "vandunnegem.jpg",
+      "intrinsic": {
+        "w": 500,
+        "h": 597
+      },
+      "role": "portrait",
+      "profile": "portrait",
+      "meetsMinimum": false,
+      "requiredMinimum": 2560,
+      "variants": [
+        {
+          "width": 480,
+          "grain": 3,
+          "webp": "vandunnegem-480.webp",
+          "avif": "vandunnegem-480.avif",
+          "jpg": "vandunnegem-480.jpg"
+        },
+        {
+          "width": 500,
+          "grain": 3,
+          "webp": "vandunnegem-500.webp",
+          "avif": "vandunnegem-500.avif",
+          "jpg": "vandunnegem-500.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "vanmeel",
+      "source": "vanmeel.jpg",
+      "intrinsic": {
+        "w": 1290,
+        "h": 1454
+      },
+      "role": "portrait",
+      "profile": "portrait",
+      "meetsMinimum": false,
+      "requiredMinimum": 2560,
+      "variants": [
+        {
+          "width": 480,
+          "grain": 3,
+          "webp": "vanmeel-480.webp",
+          "avif": "vanmeel-480.avif",
+          "jpg": "vanmeel-480.jpg"
+        },
+        {
+          "width": 768,
+          "grain": 3,
+          "webp": "vanmeel-768.webp",
+          "avif": "vanmeel-768.avif",
+          "jpg": "vanmeel-768.jpg"
+        },
+        {
+          "width": 1200,
+          "grain": 4,
+          "webp": "vanmeel-1200.webp",
+          "avif": "vanmeel-1200.avif",
+          "jpg": "vanmeel-1200.jpg"
+        },
+        {
+          "width": 1290,
+          "grain": 4,
+          "webp": "vanmeel-1290.webp",
+          "avif": "vanmeel-1290.avif",
+          "jpg": "vanmeel-1290.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "verstraeten",
+      "source": "verstraeten.jpg",
+      "intrinsic": {
+        "w": 500,
+        "h": 597
+      },
+      "role": "portrait",
+      "profile": "portrait",
+      "meetsMinimum": false,
+      "requiredMinimum": 2560,
+      "variants": [
+        {
+          "width": 480,
+          "grain": 3,
+          "webp": "verstraeten-480.webp",
+          "avif": "verstraeten-480.avif",
+          "jpg": "verstraeten-480.jpg"
+        },
+        {
+          "width": 500,
+          "grain": 3,
+          "webp": "verstraeten-500.webp",
+          "avif": "verstraeten-500.avif",
+          "jpg": "verstraeten-500.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "wustenberghs",
+      "source": "wustenberghs.jpg",
+      "intrinsic": {
+        "w": 500,
+        "h": 597
+      },
+      "role": "portrait",
+      "profile": "portrait",
+      "meetsMinimum": false,
+      "requiredMinimum": 2560,
+      "variants": [
+        {
+          "width": 480,
+          "grain": 3,
+          "webp": "wustenberghs-480.webp",
+          "avif": "wustenberghs-480.avif",
+          "jpg": "wustenberghs-480.jpg"
+        },
+        {
+          "width": 500,
+          "grain": 3,
+          "webp": "wustenberghs-500.webp",
+          "avif": "wustenberghs-500.avif",
+          "jpg": "wustenberghs-500.jpg"
+        }
+      ]
+    }
+  ],
+  "shortfalls": [
+    {
+      "name": "block",
+      "role": "portrait",
+      "have": "454x640",
+      "need": "2560px",
+      "ratio": "4.0x"
+    },
+    {
+      "name": "bracke",
+      "role": "portrait",
+      "have": "500x597",
+      "need": "2560px",
+      "ratio": "4.3x"
+    },
+    {
+      "name": "gevel",
+      "role": "hero",
+      "have": "1000x960",
+      "need": "3840px",
+      "ratio": "3.8x"
+    },
+    {
+      "name": "horst",
+      "role": "portrait",
+      "have": "500x597",
+      "need": "2560px",
+      "ratio": "4.3x"
+    },
+    {
+      "name": "interior-1",
+      "role": "editorial",
+      "have": "1000x667",
+      "need": "2560px",
+      "ratio": "2.6x"
+    },
+    {
+      "name": "interior-2",
+      "role": "editorial",
+      "have": "1000x667",
+      "need": "2560px",
+      "ratio": "2.6x"
+    },
+    {
+      "name": "mangodt",
+      "role": "portrait",
+      "have": "500x597",
+      "need": "2560px",
+      "ratio": "4.3x"
+    },
+    {
+      "name": "pauwels",
+      "role": "portrait",
+      "have": "500x597",
+      "need": "2560px",
+      "ratio": "4.3x"
+    },
+    {
+      "name": "spoelders",
+      "role": "portrait",
+      "have": "352x347",
+      "need": "2560px",
+      "ratio": "7.3x"
+    },
+    {
+      "name": "vandensteen",
+      "role": "portrait",
+      "have": "856x918",
+      "need": "2560px",
+      "ratio": "2.8x"
+    },
+    {
+      "name": "vandevijver",
+      "role": "portrait",
+      "have": "480x640",
+      "need": "2560px",
+      "ratio": "4.0x"
+    },
+    {
+      "name": "vandunnegem",
+      "role": "portrait",
+      "have": "500x597",
+      "need": "2560px",
+      "ratio": "4.3x"
+    },
+    {
+      "name": "vanmeel",
+      "role": "portrait",
+      "have": "1290x1454",
+      "need": "2560px",
+      "ratio": "1.8x"
+    },
+    {
+      "name": "verstraeten",
+      "role": "portrait",
+      "have": "500x597",
+      "need": "2560px",
+      "ratio": "4.3x"
+    },
+    {
+      "name": "wustenberghs",
+      "role": "portrait",
+      "have": "500x597",
+      "need": "2560px",
+      "ratio": "4.3x"
+    }
+  ]
+}

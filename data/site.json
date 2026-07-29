@@ -1,0 +1,66 @@
+{
+  "_source": "All values verified against live dermadok.be on 2026-07-29 via browser extraction.",
+  "name": "Dermadok Huidkliniek",
+  "tagline": { "nl": "Dermatologie, chirurgie en esthetiek", "en": "Dermatology, surgery and aesthetic medicine" },
+  "address": {
+    "street": "Rijnkaai 22",
+    "postal": "2000",
+    "city": "Antwerpen",
+    "district": "Het Eilandje",
+    "country": "BE",
+    "_note": "The clinic's own site and footer use plain 'Rijnkaai 22' with no bus/unit. Third-party directories showing 'Rijnkaai 22/301' are unconfirmed — see CLIENT_ACTIONS F-011."
+  },
+  "geo": { "lat": 51.232147, "lng": 4.402908 },
+  "phone": { "display": "03 291 66 89", "tel": "+3232916689" },
+  "email": "contact@dermadok.be",
+  "_emailPolicy": {
+    "nl": "Via e-mail kunnen we geen medische vragen beantwoorden. Het medisch geheim en uw privacy zijn onvoldoende gegarandeerd via e-mail.",
+    "en": "We cannot answer medical questions by e-mail. Medical confidentiality and your privacy cannot be sufficiently guaranteed by e-mail."
+  },
+  "secretariatHours": {
+    "_label": {
+      "nl": "Het secretariaat is telefonisch bereikbaar op",
+      "en": "The secretariat can be reached by phone on"
+    },
+    "_warning": {
+      "nl": "Dit zijn telefoontijden, geen consultatie-uren. Consultaties gebeuren uitsluitend op afspraak.",
+      "en": "These are phone hours, not consultation hours. Consultations are by appointment only."
+    },
+    "days": [
+      { "day": "Maandag", "dayEn": "Monday",    "slots": ["09:30-12:00", "13:30-17:30", "18:30-20:00"] },
+      { "day": "Dinsdag", "dayEn": "Tuesday",   "slots": ["09:00-12:30"] },
+      { "day": "Woensdag","dayEn": "Wednesday", "slots": ["09:00-12:30"] },
+      { "day": "Donderdag","dayEn": "Thursday", "slots": ["09:00-12:00", "13:30-14:30"] },
+      { "day": "Vrijdag", "dayEn": "Friday",    "slots": ["09:00-12:00"],
+        "note": { "nl": "Tijdens de ochtend kunnen de wachttijden oplopen wegens drukte.", "en": "Waiting times can run long on Friday mornings." } }
+    ]
+  },
+  "booking": {
+    "_doc": "F-009 flag layer. Verified live 2026-07-29. Change a value here and every page updates. The prompt's §11.1 matrix was STALE: there is no clinic-wide patiëntenstop and no referral requirement anywhere on dermadok.be. The only live restrictions are per-doctor and encoded in data/team.json.",
+    "host": "https://onlinebooking.myorganizer.online",
+    "framingAllowed": true,
+    "_framingCheck": "curl -sI returned HTTP/1.1 200 with no X-Frame-Options and no Content-Security-Policy frame-ancestors on 2026-07-29. Embedding is permitted. Re-verify before launch.",
+    "groupAgendas": {
+      "dermatologie": "https://onlinebooking.myorganizer.online/?gp=00c3bc13-e3e1-42c7-819f-b01d5184da41&aid=ODQ5&aid=ODQx&aid=ODQy&aid=ODQw&aid=ODQ0&aid=Mjc4Mw%3D%3D&language=bmxfQkU%3D&role=OA%3D%3D",
+      "vaat-esthetiek-laser": "https://onlinebooking.myorganizer.online/?gp=00c3bc13-e3e1-42c7-819f-b01d5184da41&aid=ODQ4&aid=MjYwMw%3D%3D&aid=MjUzOQ%3D%3D&language=bmxfQkU%3D&role=OA%3D%3D"
+    },
+    "clinicWidePatientStop": false,
+    "referralRequired": false
+  },
+  "transit": {
+    "_note": "Semi-permanent facts only. Time-sensitive roadworks belong in the dated 'actueel' slot, never hardcoded here (F-008).",
+    "tram": [
+      { "line": "7",  "stop": "Antwerpen MAS",    "walkMetres": 464 },
+      { "line": "24", "stop": "Antwerpen Londen", "walkMetres": 595,
+        "hint": { "nl": "Via Londenstraat/Amsterdamstraat, dan rechts.", "en": "Via Londenstraat/Amsterdamstraat, then right." } }
+    ]
+  },
+  "accessibility": {
+    "wheelchair": true,
+    "byAppointmentOnly": true
+  },
+  "actueel": {
+    "_doc": "F-008. Dated notices only. Empty array = nothing shown. Never hardcode roadworks into evergreen pages.",
+    "items": []
+  }
+}

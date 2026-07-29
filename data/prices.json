@@ -1,0 +1,158 @@
+{
+  "_source": "Transcribed verbatim from https://www.dermadok.be/richtprijzen-dr-van-den-steen-philippe-injectables/ and /huidverbetering/ on 2026-07-29. NO price on this site was calculated, adjusted, rounded or inferred.",
+
+  "_CONFLICT": {
+    "severity": "blocking — client sign-off required before launch",
+    "summary": "dermadok.be publishes TWO different prices for the same filler treatments on two different pages.",
+    "pages": {
+      "a": "/richtprijzen-dr-van-den-steen-philippe-injectables/ (last modified 2026-06-30T12:18:41Z)",
+      "b": "/van-den-steen-philippe/ (last modified 2026-06-30T12:18:00Z)"
+    },
+    "divergences": [
+      { "item": "Hyaluronzuur soft filler 1 ml",  "a": 300, "b": 350 },
+      { "item": "Hyaluronzuur soft filler 2 ml",  "a": 550, "b": 600 },
+      { "item": "Hyaluronzuur filler 0,55 ml",    "a": 250, "b": 270 }
+    ],
+    "resolution": "This build uses page (a), the dedicated richtprijzen sheet — it is purpose-built for pricing and was saved 41 seconds later. That gap is too small to be decisive, so this is NOT a safe inference. The client must confirm which figures are current. Until they do, a patient reading page (b) is quoted up to €50 more than one reading page (a).",
+    "_note": "The build prompt's §4.4 did not list filler prices at all and asserted they were unpublished. They are published — twice, inconsistently."
+  },
+
+  "aesthetic": {
+    "_practitioner": "philippe-van-den-steen",
+    "_disclaimer": {
+      "nl": "Deze richtprijzen gelden voor esthetische behandelingen bij Dr. Van den Steen. Dermatologische en chirurgische zorg wordt niet forfaitair geprijsd — dat bespreken we tijdens uw consultatie.",
+      "en": "These indicative prices apply to aesthetic treatments with Dr. Van den Steen. Dermatological and surgical care is not priced as a flat fee — we discuss that during your consultation."
+    },
+    "groups": [
+      {
+        "id": "spierontspanners",
+        "title": { "nl": "Spierontspanners", "en": "Muscle relaxants" },
+        "items": [
+          { "label": "12 units", "price": 100 },
+          { "label": "24 units", "price": 175 },
+          { "label": "36 units", "price": 275 },
+          { "label": "48 units", "price": 325 },
+          { "label": "72 units", "price": 400 },
+          { "label": "Lipflip", "price": 60 },
+          { "label": "Kin", "price": 80 },
+          { "label": "Mondhoeken", "price": 80 },
+          { "label": "Gummy smile", "price": 100 },
+          { "label": "Bunny lines", "price": 100 },
+          { "label": "Kaaklijn", "price": 200 },
+          { "label": "Kaaklijn / hals", "price": 350 },
+          { "label": "Face slimming / bruxisme", "price": 450 },
+          { "label": "Trapezius", "price": 350, "from": true }
+        ]
+      },
+      {
+        "id": "hyperhidrose",
+        "title": { "nl": "Overmatig zweten", "en": "Excessive sweating" },
+        "items": [
+          { "label": "Oksels, 100 units", "price": 475 },
+          { "label": "Oksels, 200 units", "price": 800 },
+          { "label": "Handen, 100 units", "price": 475 },
+          { "label": "Voeten, 100 units", "price": 475 }
+        ]
+      },
+      {
+        "id": "fillers",
+        "title": { "nl": "Fillers", "en": "Fillers" },
+        "_conflict": true,
+        "items": [
+          { "label": "Fillers oplossen", "price": 150, "from": true },
+          { "label": "Hyaluronzuur soft filler 1 ml", "price": 300, "conflict": 350 },
+          { "label": "Hyaluronzuur soft filler 2 ml", "price": 550, "conflict": 600 },
+          { "label": "Hyaluronzuur filler 0,55 ml", "price": 250, "conflict": 270 },
+          { "label": "Hyaluronzuur filler 1 ml", "price": 350 },
+          { "label": "Hyaluronzuur filler 2 ml", "price": 650 },
+          { "label": "Hyaluronzuur filler 3 ml", "price": 900 },
+          { "label": "Hyaluronzuur filler 4 ml", "price": 1100 },
+          { "label": "Harmonica 1,5 ml", "price": 500 },
+          { "label": "Harmonica 3 ml", "price": 900 }
+        ]
+      },
+      {
+        "id": "skinboosters",
+        "title": { "nl": "Skinboosters", "en": "Skinboosters" },
+        "items": [
+          { "label": "Profhilo 2 ml", "price": 300 },
+          { "label": "Profhilo 2 × 2 ml in één behandeling", "price": 550 },
+          { "label": "Profhilo Body 3 ml", "price": 400 },
+          { "label": "Aquashine PTX / BR / Classic", "price": 200 },
+          { "label": "Viscoderm Hydrobooster", "price": 300 },
+          { "label": "Nucleofill / polynucleotiden / Ameela", "price": 300 }
+        ]
+      },
+      {
+        "id": "prf",
+        "title": { "nl": "PRF / PRP", "en": "PRF / PRP" },
+        "note": { "nl": "Met uw eigen bloed.", "en": "Using your own blood." },
+        "items": [
+          { "label": "Haar, 1 buis", "price": 200 },
+          { "label": "Haar, 2 buizen", "price": 300 },
+          { "label": "Onderoogleden, 2 buizen", "price": 300 },
+          { "label": "Gelaat en hals, 4 buizen", "price": 400 }
+        ]
+      },
+      {
+        "id": "hairfiller",
+        "title": { "nl": "Dr.CYJ Hairfiller", "en": "Dr.CYJ Hairfiller" },
+        "_sic": "The source page writes 'Dr. CJY Hairfiller'. The product is Dr.CYJ Hair Filler; the site has a transposition typo. Corrected here — flagged in CLIENT_ACTIONS.md.",
+        "items": [
+          { "label": "Hairfiller 2 ml", "price": 300 },
+          { "label": "Kuur van 4 × 1 ml", "price": 600 },
+          { "label": "Kuur van 4 × 2 ml", "price": 1000 }
+        ]
+      },
+      {
+        "id": "polymelkzuur",
+        "title": { "nl": "Polymelkzuur (Sculptra)", "en": "Poly-L-lactic acid (Sculptra)" },
+        "items": [
+          { "label": "1 flacon", "price": 500 },
+          { "label": "2 flacons", "price": 900 },
+          { "label": "4 flacons", "price": 1600 },
+          { "label": "6 flacons", "price": 2000 },
+          { "label": "8 flacons", "price": 2500 }
+        ]
+      },
+      {
+        "id": "lipolyse",
+        "title": { "nl": "Lipolyse (Prostrolane)", "en": "Lipolysis (Prostrolane)" },
+        "_sic": "The source page writes 'Prostolane'. The product is Prostrolane. Corrected here — flagged in CLIENT_ACTIONS.md.",
+        "items": [
+          { "label": "Inner B 2 ml", "price": 175 },
+          { "label": "Inner B 2 × 2 ml", "price": 300 },
+          { "label": "Inner B SE (onderoogleden) 1 ml", "price": 300 }
+        ]
+      },
+      {
+        "id": "draadlift",
+        "title": { "nl": "Draadlift (Definesse)", "en": "Thread lift (Definesse)" },
+        "items": [
+          { "label": "Double Needle Threads, 2 draden", "price": 800 },
+          { "label": "Double Needle Threads, 4 draden", "price": 1400 },
+          { "label": "Revitalising Threads, 5 draden", "price": 500 }
+        ]
+      }
+    ]
+  },
+
+  "huidverbetering": {
+    "_practitioner": "lisette-van-meel",
+    "_note": "The build prompt's F-004 states this service line is 'close to a page title' and under-specified. It is not — /huidverbetering/ carries a complete treatment and price list, transcribed below.",
+    "groups": [
+      {
+        "id": "gelaatsverzorging",
+        "title": { "nl": "Gelaatsverzorging", "en": "Facial treatments" },
+        "note": { "nl": "Inclusief reinigen, masker, epileren en massage.", "en": "Including cleansing, mask, shaping and massage." },
+        "items": [
+          { "label": "Volledige gelaatsverzorging met microdermabrasie", "duration": "90 min", "price": 75 },
+          { "label": "Met microdermabrasie en electromesotherapie", "duration": "90 min", "price": 85 },
+          { "label": "Met microdermabrasie, electromesotherapie en microneedling", "duration": "90 min", "price": 95 },
+          { "label": "Volledige gelaatsverzorging met microneedling", "duration": "90 min", "price": 75 },
+          { "label": "Peel/Mask systeem — masker met lichte zuren, incl. reinigen", "duration": "45 min", "price": 35 }
+        ]
+      }
+    ]
+  }
+}
