@@ -18,7 +18,18 @@ const services = read("data/services.json");
 const prices = read("data/prices.json");
 const assets = existsSync(join(ROOT, "data/assets.manifest.json")) ? read("data/assets.manifest.json") : { images: [] };
 
-const BASE = process.env.BASE_PATH ?? "";     // e.g. "/dermadok" for project Pages
+// e.g. "/dermadok" for a GitHub Pages project site.
+// GUARD: MSYS/Git-Bash rewrites a leading-slash env var into a Windows path, so
+// `BASE_PATH=/dermadok` silently becomes "C:/Program Files/Git/dermadok" and every
+// link and asset on the deployed site breaks. Caught in production once; never again.
+// Use `MSYS_NO_PATHCONV=1 BASE_PATH=/dermadok node tools/build.mjs` on Windows.
+const BASE = process.env.BASE_PATH ?? "";
+if (BASE && (/^[A-Za-z]:/.test(BASE) || BASE.includes("\\") || !BASE.startsWith("/"))) {
+  console.error(`\nBUILD ABORTED — BASE_PATH looks mangled: ${JSON.stringify(BASE)}`);
+  console.error(`  Expected a root-relative path like "/dermadok".`);
+  console.error(`  On Git Bash / MSYS, prefix the command with MSYS_NO_PATHCONV=1.`);
+  process.exit(1);
+}
 const errors = [];
 const YEAR = new Date().getFullYear();
 const assetBySlug = Object.fromEntries(assets.images.map((i) => [i.slug, i]));
