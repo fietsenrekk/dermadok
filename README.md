@@ -38,3 +38,6 @@ Serves `dist/` on http://localhost:4213.
 
 One place. `data/team.json` → the practitioner → `booking.online` (`true` / `false` / `"partial"`)
 and `booking.restriction`. Rebuild. Every page that mentions it updates.
+
+# Workflow file kept as docs/ci/deploy.yml.example — the current gh token
+# lacks the "workflow" scope, so it cannot be pushed to .github/workflows/.
